@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lora&family=Patrick+Hand&family=Square+Peg&display=swap');
+
+
+.blue-btn{
+	background-color: #436615;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lora&family=Patrick+Hand&family=Square+Peg&display=swap');
+@import url('components/container.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+h1,h2,h3{
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+a{
+	text-decoration: none;
+	border: 20px;
+}
+p{
+	color:black;
+}
+ form{
+ 	background-color:#436615;
+    padding: 20px;
+    border-radius:15px ;
+ 	margin-top: 0px ;
+ 	text-align: center;
+ }
+ label{
+ 	color:darkgrey;
+ 	margin-top: 90%;
+ }
+
+
+
+ form .separation{
+	width: 80%;
+	height: 1px;
+	background-color:grey;
+}
+form .corps-formulaire{
+	display: flex;
+	flex-wrap:wrap ;
+	margin-bottom:30px ;
+}
+form .corps-formulaire .groupe{
+
+display: flex;
+flex-direction:column ;
+
+}
+form .pied-formulaire .groupe{
+margin-bottom: 100px;
+	}
